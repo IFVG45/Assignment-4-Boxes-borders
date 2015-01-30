@@ -1,0 +1,104 @@
+html{
+  background-color:#bf9ae2
+}
+body{
+  margin: 0;
+}
+
+
+/*inline: allows other elements beside on the same line padding,margin,width dont work as
+expected.
+
+block:take up one whole line in the browser window padding,margin,width
+work as expected
+
+inline-block: allow other elements beside on the same line.
+*/
+
+
+h1{
+  background-color: #c27fe5;
+
+  /*start at top and go clockwise; top,right,bottom,left*/
+  padding: 1em 2em 3em 0.5em;
+
+  margin: 0em; /* top/bottom  left/right*/
+
+  border:5px #000;
+
+  border-radius:10 px;
+
+  display: block;
+
+  text-align:center;
+
+}
+
+nav{
+  background-color: #c27fe5;
+  text-align: center;
+
+
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav li{
+  display: inline;
+
+
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #b548d4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+
+
+
+}
+
+figure{
+
+
+
+  padding: 1.5em 0.75em;
+
+  border:2px solid #000;
+
+  border-radius:0.5em;
+
+  display: inline-block;
+
+
+
+}
+
+header{
+  margin:0;
+  display: block;
+  background-color:#c27fe5;
+}
+
+
+footer1{
+  margin: 0em; /* top/bottom  left/right*/
+
+  border:5px #000;
+
+  background-color:
+  #c27fe;
+
+
+  display: block;
+
+  text-align:left;
+}

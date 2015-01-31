@@ -89,16 +89,15 @@ header{
 }
 
 
-footer1{
-  margin: 0em;
+a{
+  margin:0em;
 
-  border:5px #000;
+  border:5px  #d8b5ef ;
 
-  background-color:
-  #c27fe;
+  background-color:#c27fe;
 
 
-  display: block;
+  display:block;
 
   text-align:left;
 }
